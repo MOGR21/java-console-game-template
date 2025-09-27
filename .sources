@@ -1,0 +1,15 @@
+/home/mogr/java-console-game-template/src/com/example/dungeon/Main.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/model/Room.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/model/Entity.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/model/Key.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/model/Item.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/model/GameState.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/model/Potion.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/model/Monster.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/model/Weapon.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/model/Player.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/core/WorldInfo.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/core/SaveLoad.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/core/InvalidCommandException.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/core/Game.java
+/home/mogr/java-console-game-template/src/com/example/dungeon/core/Command.java
