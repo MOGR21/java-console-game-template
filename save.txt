@@ -1,0 +1,28 @@
+player;Герой;28;5
+inventory;Potion:Малое зелье,Weapon:Стальной меч,Key:Серебряный ключ
+current_room;Река
+==rooms_start==
+room;Пещера;Темная и сырая пещера.
+room_items;Пещера;Potion:Большое зелье
+room_monster;Пещера;Гоблин;25;5
+room;Замок;Древний заброшенный замок. Здесь может быть сокровище!
+room_items;Замок;Potion:Эликсир жизни
+room_monster;Замок;Дракон;50;10
+room;Площадь;Каменная площадь с фонтаном в центре.
+room;Лес;Густой лес с высокими деревьями.
+room;Река;Быстрая горная река с чистой водой.
+room_monster;Река;Тролль;35;7
+room;Горы;Высокие заснеженные вершины.
+==rooms_end==
+==connections_start==
+connection;Пещера;west;Лес
+connection;Замок;west;Река
+connection;Площадь;north;Лес
+connection;Лес;east;Пещера
+connection;Лес;south;Площадь
+connection;Лес;north;Горы
+connection;Река;east;Замок
+connection;Река;west;Горы
+connection;Горы;east;Река
+connection;Горы;south;Лес
+==connections_end==

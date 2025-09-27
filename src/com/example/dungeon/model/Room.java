@@ -18,6 +18,10 @@ public class Room {
         return name;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
     public Map<String, Room> getNeighbors() {
         return neighbors;
     }

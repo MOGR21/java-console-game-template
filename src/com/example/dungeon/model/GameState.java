@@ -1,9 +1,12 @@
 package com.example.dungeon.model;
 
+import java.util.*;
+
 public class GameState {
     private Player player;
     private Room current;
     private int score;
+    private List<Room> allRooms = new ArrayList<>();
 
     public Player getPlayer() {
         return player;
@@ -27,5 +30,13 @@ public class GameState {
 
     public void addScore(int d) {
         this.score += d;
+    }
+
+    public List<Room> getAllRooms() {
+        return allRooms;
+    }
+
+    public void setAllRooms(List<Room> rooms) {
+        this.allRooms = rooms;
     }
 }
